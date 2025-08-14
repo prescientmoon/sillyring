@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#faebff" />
+
+    <title>The silly webring :3</title>
+    <link rel="icon" type="image/x-icon" href="spinning-daniel.webp" />
+    <meta property="og:title" content="The silly webring :3" />
+    <meta property="twitter:title" content="The silly webring :3" />
+    <meta
+      property="og:description"
+      content="The central place containing links towards the members' pages. "
+    />
+    <meta
+      property="twitter:description"
+      content="The central place containing links towards the members' pages. "
+    />
+    <meta property="og:url" content="https://silly.moonythm.dev/" />
+
+    <style>
+      body {
+        max-width: 40rem;
+        margin: auto;
+        padding: 2rem;
+      }
+
+      /* {{{ Fonts */
+      @font-face {
+        font-family: "Computer Modern";
+        src: url("/fonts/cm-regular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Computer Modern";
+        src: url("/fonts/cm-bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: bold;
+      }
+
+      @font-face {
+        font-family: "Computer Modern";
+        src: url("/fonts/cm-italic.ttf") format("truetype");
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      @font-face {
+        font-family: "Computer Modern";
+        src: url("/fonts/cm-bolditalic.ttf") format("truetype");
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      body {
+        font:
+          23pt/1.6 "Computer Modern",
+          sans-serif;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          font-size: 16pt;
+        }
+      }
+      /* }}} */
+      /* {{{ General element tweaks */
+      ul,
+      ol {
+        padding-left: 1.5rem;
+      }
+
+      /* https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements#specifying_a_uniform_font_size_for_h1 */
+      h1 {
+        margin-block: 0.67em;
+        font-size: 2em;
+      }
+      /* }}} */
+      /* {{{ Light theme */
+      @media (prefers-color-scheme: light) {
+        body {
+          background: #faebff;
+          color: black;
+        }
+      }
+      /* }}} */
+      /* {{{ Dark theme */
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #1f073b;
+          color: white;
+        }
+
+        a {
+          color: #9cdcfe;
+        }
+
+        a:visited {
+          color: #c586c0;
+        }
+
+        a:hover,
+        a:focus {
+          color: #4ec9b0;
+        }
+      }
+
+      /* }}} */
+      /* {{{ Animations */
+      span#heading-wave {
+        display: inline-flex;
+        animation: rainbow 2s linear infinite;
+        will-change: transform, background-position;
+
+        background: linear-gradient(
+          90deg,
+          #ffd1dc,
+          #ffe4b5,
+          #fffacd,
+          #d0f0c0,
+          #add8e6,
+          #c1c6fc,
+          #f4c2c2,
+          #ffd1dc /* loop back */
+        );
+
+        background-size: 200% auto;
+        background-position: 0% 50%; /* Start position */
+
+        background-clip: text;
+        -webkit-background-clip: text;
+
+        text-stroke: 1px rgba(0, 0, 0, 25%);
+        -webkit-text-stroke: 1px rgba(0, 0, 0, 25%);
+
+        span {
+          display: inline-block;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          animation: wave 1.5s ease-in-out infinite;
+        }
+
+        span:nth-child(1) {
+          animation-delay: 0s, 0s;
+        }
+        span:nth-child(2) {
+          animation-delay: 0.1s, 0s;
+        }
+        span:nth-child(3) {
+          animation-delay: 0.2s, 0s;
+        }
+        span:nth-child(4) {
+          animation-delay: 0.3s, 0s;
+        }
+        span:nth-child(5) {
+          animation-delay: 0.4s, 0s;
+        }
+      }
+
+      @keyframes wave {
+        0%,
+        100% {
+          transform: translateY(5px);
+        }
+
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+
+      @keyframes rainbow {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 200% 50%;
+        }
+      }
+      /* }}} */
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      The
+      <!-- This is awful aaaa -->
+      <span id="heading-wave">
+        <span>s</span>
+        <span>i</span>
+        <span>l</span>
+        <span>l</span>
+        <span>y</span>
+      </span>
+      webring :3
+    </h1>
+    <p>
+      Hii! We're group of friends held together by our silliness &amp collective
+      love for rhythm games. This page acts as a hub connecting our personal
+      pages.
+    </p>
+
+    <h2>Members</h2>
+    <ul>
+      <li><a href="about:blank">Ari</a>, feeling as sigma as ever.</li>
+      <li>
+        <a href="https://primevaltextureliker.straw.page/">Arthesia</a>, the
+        number one primeval texture stan.
+      </li>
+      <li>
+        <a href="https://sugarp1lled.straw.page/">Linn</a>, something something
+        gambling.
+      </li>
+      <li>
+        <a href="https://asceptical.straw.page/">Loomie</a>, who's accidentally
+        farted.
+      </li>
+      <li>
+        <a href="https://moonythm.dev">Prescientmoon</a> — the certified water
+        addict.
+      </li>
+      <li>
+        <a href="https://primevaltextureliker.straw.page/">Taya</a>, the
+        unapologetic Ilith gazer.
+      </li>
+    </ul>
+  </body>
+</html>
